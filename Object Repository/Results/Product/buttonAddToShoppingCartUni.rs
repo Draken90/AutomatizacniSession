@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>buttonAddToShoppingCart</name>
+   <name>buttonAddToShoppingCartUni</name>
    <tag></tag>
-   <elementGuidId>5480e885-d1b6-49a9-91db-1abf2b0575ee</elementGuidId>
+   <elementGuidId>0ab0ce0b-3581-4211-af28-11fa8c2269c1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//div[contains(@class,'canBuy inStockAvailability')]//a[@class = 'btnk1'])[${GlobalVariable.Random}]</value>
+         <value>//div[contains(@class,'canBuy inStockAvailability')]//a[@class = 'btnk1']</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -25,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>01d59bb6-c79d-4fa1-ae4e-5a2da093d87b</webElementGuid>
+      <webElementGuid>9c9a5137-44ff-464b-a82a-4c431de3de42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -33,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btnk1</value>
-      <webElementGuid>5775f846-60ef-433d-8c0e-da3d62b63341</webElementGuid>
+      <webElementGuid>c1776826-677a-442b-be78-dd9d0b900b16</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:boxOrder(6121916, null, quantity, 'BigWhite', 'AlzaOnly', true)</value>
-      <webElementGuid>eefd73cd-614f-4492-8b78-c289d0c486ea</webElementGuid>
+      <webElementGuid>327c24b1-4974-487b-a834-179e5b1fa5d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Do košíku</value>
-      <webElementGuid>39d3a9ff-8c2c-4053-b493-df9b552214e9</webElementGuid>
+      <webElementGuid>00d7e446-588f-4185-8578-8c34ae74accf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;boxes&quot;)/div[@class=&quot;box browsingitem js-box canBuy inStockAvailability firstRow&quot;]/div[@class=&quot;bottom&quot;]/div[@class=&quot;price&quot;]/span[@class=&quot;btnkx js-order-btn canc canwatchdog cannotChangeQuantity&quot;]/div[1]/div[@class=&quot;btnkx-inner&quot;]/a[@class=&quot;btnk1&quot;]</value>
-      <webElementGuid>72da905d-c899-4b01-b00c-547b1260b428</webElementGuid>
+      <webElementGuid>eb357c57-25fa-4d4e-9b45-68e1630d5189</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='boxes']/div[2]/div[2]/div/span/div/div/a</value>
-      <webElementGuid>a6f07185-1938-45ae-95a1-475110d48bc5</webElementGuid>
+      <webElementGuid>459af516-292c-4ce0-b40b-97f983a93dda</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Do košíku')])[2]</value>
-      <webElementGuid>4bcd8d91-363b-4f94-8f4e-598542296ccc</webElementGuid>
+      <webElementGuid>dc3d0d04-0942-4566-962f-265d60098d88</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='BOSCH SMS4EVI14E'])[1]/following::a[1]</value>
-      <webElementGuid>c346d9c5-37d7-4c11-b065-22d7b0a646f6</webElementGuid>
+      <webElementGuid>1d83ff76-dc71-4a31-82e6-004ddec16555</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Varianty'])[1]/following::a[2]</value>
-      <webElementGuid>ed5c3f70-85a7-42b7-bd65-b68a9187ca46</webElementGuid>
+      <webElementGuid>84fe001f-b95e-4451-85e4-39dde6df095f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[3]/preceding::a[1]</value>
-      <webElementGuid>267323c8-0dac-4c7a-9ca1-5120322dc273</webElementGuid>
+      <webElementGuid>f0e439c5-5d4c-44e0-b44e-3c87e37a01bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[2]/preceding::a[1]</value>
-      <webElementGuid>575e7fff-bcce-4b49-845c-94167ca45ac7</webElementGuid>
+      <webElementGuid>1948518b-2976-4eb7-9074-32d065a55954</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, &quot;javascript:boxOrder(6121916, null, quantity, 'BigWhite', 'AlzaOnly', true)&quot;)]</value>
-      <webElementGuid>e34ce2d6-fad1-4067-80e7-49af28a3b484</webElementGuid>
+      <webElementGuid>a0a9d2f6-5538-4291-9ac0-96bf35022c65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +121,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/span/div/div/a</value>
-      <webElementGuid>33bbdc8f-a431-4171-a9fa-b8114653f44c</webElementGuid>
+      <webElementGuid>fae9970f-0f34-4452-8bc7-b308fd34ad30</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,6 +129,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = concat(&quot;javascript:boxOrder(6121916, null, quantity, &quot; , &quot;'&quot; , &quot;BigWhite&quot; , &quot;'&quot; , &quot;, &quot; , &quot;'&quot; , &quot;AlzaOnly&quot; , &quot;'&quot; , &quot;, true)&quot;) and (text() = 'Do košíku' or . = 'Do košíku')]</value>
-      <webElementGuid>02d124a1-1a57-4ac6-99b3-7604fc344a93</webElementGuid>
+      <webElementGuid>bbe4aeb2-60ff-4b34-99df-a94902e4de9e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

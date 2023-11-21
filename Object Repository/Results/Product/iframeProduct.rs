@@ -6,12 +6,11 @@
    <elementGuidId>54768cd0-8824-4a2c-a527-e5c19a62514a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(id(&quot;boxes&quot;)/div[contains(@class,&quot;canBuy inStockAvailability&quot;)]/div[@class=&quot;top&quot;]//div[@class=&quot;fb&quot;]//a[contains(text(),&quot;${GlobalVariable.ProductBrand}&quot;)])[1]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@id='boxes']/div[contains(@class,&quot;canBuy inStockAvailability&quot;)]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>0bb06745-8750-41d9-88a7-d70fe37898fb</webElementGuid>
+      <webElementGuid>a073a58d-4ed5-4c0d-b561-fce00ccd1170</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>box browsingitem js-box canBuy inStockAvailability firstRow</value>
-      <webElementGuid>3b949431-9796-4a7a-a177-075e45f53968</webElementGuid>
+      <webElementGuid>e630b2a2-cb1d-4bf3-9b2f-ca03d69fdf1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +37,7 @@
       <name>data-code</name>
       <type>Main</type>
       <value>BOMY120</value>
-      <webElementGuid>f36e4ed2-c843-4a31-9128-b1de1274572a</webElementGuid>
+      <webElementGuid>2aa0f670-6fed-41ec-9b8e-4c453acf1023</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>data-id</name>
       <type>Main</type>
       <value>6121916</value>
-      <webElementGuid>00338059-8146-4419-bbeb-97dd2533f861</webElementGuid>
+      <webElementGuid>ba60ea8c-306e-4485-8d76-51ac2be55705</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>data-almostnew</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e16a46b6-80d4-4537-9958-af9a92d2f006</webElementGuid>
+      <webElementGuid>f6319363-4b97-4063-8252-1374414dc090</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -158,7 +157,7 @@ BOMY120
 
 
 </value>
-      <webElementGuid>d60c5ec4-b1d2-4f7f-96d7-87f801edc274</webElementGuid>
+      <webElementGuid>90f8e130-5508-4943-acb5-9096af817764</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -166,7 +165,7 @@ BOMY120
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;boxes&quot;)/div[@class=&quot;box browsingitem js-box canBuy inStockAvailability firstRow&quot;]</value>
-      <webElementGuid>d004e05b-844a-4622-b3b4-3b3a67cb9da5</webElementGuid>
+      <webElementGuid>2d379f7e-35a9-4155-918d-017587f582d8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -174,7 +173,7 @@ BOMY120
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='boxes']/div[2]</value>
-      <webElementGuid>59abc8ca-8a30-48d8-9b8a-d24d0f549779</webElementGuid>
+      <webElementGuid>3e8692c8-31b2-4a8d-9e19-df89980993d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -182,7 +181,7 @@ BOMY120
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GORCHL199'])[1]/following::div[1]</value>
-      <webElementGuid>b95938e7-86fe-42ca-9e01-babbce311cbf</webElementGuid>
+      <webElementGuid>f59aba11-a6ca-4f7e-98d7-8f8b2c7c57ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -190,7 +189,7 @@ BOMY120
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Objednací kód:'])[1]/following::div[1]</value>
-      <webElementGuid>e993b040-b512-412b-a9d3-307156952568</webElementGuid>
+      <webElementGuid>057f87aa-d341-4ad5-b046-f6a3749fd7a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -198,7 +197,7 @@ BOMY120
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div[2]/div/div[2]</value>
-      <webElementGuid>c899c959-dd1e-4b15-9596-aac203a9f4d9</webElementGuid>
+      <webElementGuid>9ad0fd56-8afc-4246-88bb-39f01c93d898</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -398,6 +397,6 @@ BOMY120
 
 
 ')]</value>
-      <webElementGuid>00dbed03-0b6e-4a33-a6ab-4ca0bb6181dd</webElementGuid>
+      <webElementGuid>1509d75e-1866-4dcd-9921-d93f49f0f186</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

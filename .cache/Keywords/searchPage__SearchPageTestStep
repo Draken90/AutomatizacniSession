@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "D2E1E423E44F296C78E2E68FA1D94D58",
+  "keywordClasses": [
+    {
+      "name": "searchPage.SearchPageTestStep",
+      "keywordMethods": [
+        {
+          "name": "search",
+          "parameters": [
+            {
+              "name": "product",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -6,19 +6,19 @@
    <elementGuidId>aead2e91-0ec6-4444-be97-686b0624a225</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//html[@id='rootHtml']/body/div[7]/div/div/div[2]/a</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//a[@class = 'btnx cookies-info__button js-cookies-info-accept']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.btnx.cookies-info__button.js-cookies-info-accept</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='boxes']/div[contains(@class,'canBuy inStockAvailability')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = 'javascript:Alza.Web.Cookies.acceptAllCookies();']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>a13b5965-a356-4e3f-9301-5cc094d98f3d</webElementGuid>
+      <webElementGuid>3fbad3fb-446d-46cf-8db6-ee7603884135</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>btnx cookies-info__button js-cookies-info-accept</value>
-      <webElementGuid>ef7b92a2-d328-49cf-8017-0d39331363c1</webElementGuid>
+      <webElementGuid>e74bedad-fa32-463e-ae76-be39a10fb1e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>data-api-url</name>
       <type>Main</type>
       <value>https://webapi.alza.cz/api/visitors/8097483836/v1/activities</value>
-      <webElementGuid>197eaeaf-fd63-4d28-a5f9-eb2f824022a7</webElementGuid>
+      <webElementGuid>7c684ea9-eeea-4634-8484-19d6292b1bad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>data-action-type-value</name>
       <type>Main</type>
       <value>13</value>
-      <webElementGuid>2fd56489-d7db-426c-b400-512c28adcd17</webElementGuid>
+      <webElementGuid>0c0fb9f5-76dc-4a7c-9924-d14758f8507f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>data-action-id-value</name>
       <type>Main</type>
       <value>1023</value>
-      <webElementGuid>d4d527a0-8740-4351-9c5a-71cf6db75e43</webElementGuid>
+      <webElementGuid>5a36ced1-4ee1-4f32-8796-873c85266efe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,15 +66,15 @@
       <name>data-speed-curve</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>78a75620-354a-4472-9741-c00b342ee4e8</webElementGuid>
+      <webElementGuid>ab02a739-0517-4fc8-97fb-f87d44a187d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>javascript:Alza.Web.Cookies.acceptAllCookies();</value>
-      <webElementGuid>49036f6b-55c9-4ffd-9f94-d7d8c2fb6150</webElementGuid>
+      <webElementGuid>80f6eec6-fb11-4fe8-8b5e-138b7e820484</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Rozumím</value>
-      <webElementGuid>61522e03-9f7b-4fcf-a2f9-730d2ef08b18</webElementGuid>
+      <webElementGuid>842b6ff3-e570-49cb-878b-94a503e17fdb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;rootHtml&quot;)/body[@class=&quot;default alza-cz alza&quot;]/div[@class=&quot;js-cookies-info cookies-info&quot;]/div[@class=&quot;cookies-info__container&quot;]/div[@class=&quot;cookies-info__inner&quot;]/div[@class=&quot;cookies-info__buttons&quot;]/a[@class=&quot;btnx cookies-info__button js-cookies-info-accept&quot;]</value>
-      <webElementGuid>a0f1118f-2532-45e4-a52a-9325c3fd133d</webElementGuid>
+      <webElementGuid>66396674-bf82-493e-8559-3b8b9de1a7f6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//html[@id='rootHtml']/body/div[7]/div/div/div[2]/a</value>
-      <webElementGuid>b4fa51f4-6059-49d0-af71-2d0c5c055ccb</webElementGuid>
+      <webElementGuid>14f00d4a-87e6-4077-83e8-1d87d6aeea07</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Rozumím')]</value>
-      <webElementGuid>aa2d01a2-fdbb-40b8-8aab-2048cd989912</webElementGuid>
+      <webElementGuid>625062d8-5a67-4364-a64c-989adc924923</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Podmínkách ochrany os. údajů'])[1]/following::a[1]</value>
-      <webElementGuid>20369e5e-9ec8-4d87-80d4-04bc1df1fcf8</webElementGuid>
+      <webElementGuid>041a923d-774e-4546-bce0-ad12747d7d34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Více o Vašich právech'])[1]/following::a[2]</value>
-      <webElementGuid>090f3d99-3a97-442f-b146-992dc5497922</webElementGuid>
+      <webElementGuid>b87bb63d-9f88-44a3-ac50-c27a514a507f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Podrobné nastavení'])[1]/preceding::a[1]</value>
-      <webElementGuid>77d430a7-fd16-4080-a8ba-bfbde67ff80e</webElementGuid>
+      <webElementGuid>a2619e4d-cbe0-4b43-84d5-02cc6cffaee7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,7 +138,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Odmítnout vše'])[1]/preceding::a[2]</value>
-      <webElementGuid>d0ced982-4454-4d21-8791-8249b98622f6</webElementGuid>
+      <webElementGuid>521d57d8-196f-4090-baac-f662e3e8df0f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -146,7 +146,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Rozumím']/parent::*</value>
-      <webElementGuid>a5749df6-3d80-442b-b9ea-0338e9e80437</webElementGuid>
+      <webElementGuid>ce58baab-72c0-4cbb-932b-ec315fa6d37d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -154,7 +154,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'javascript:Alza.Web.Cookies.acceptAllCookies();')]</value>
-      <webElementGuid>44ba4d89-f3ee-4ea4-9566-42c87509bc85</webElementGuid>
+      <webElementGuid>b6937a41-39b5-491d-961d-824c42a17aaf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -162,7 +162,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/div/div/div[2]/a</value>
-      <webElementGuid>996eb1a7-1250-4df3-8865-10e43330addc</webElementGuid>
+      <webElementGuid>3ca5a8e1-98de-4d9b-90c9-b84f1c2a554a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -170,6 +170,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'javascript:Alza.Web.Cookies.acceptAllCookies();' and (text() = 'Rozumím' or . = 'Rozumím')]</value>
-      <webElementGuid>5da341a4-f6f7-482d-9231-d6ab1af3a41d</webElementGuid>
+      <webElementGuid>27b40f5c-dde0-4e66-940b-f43818117bf1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

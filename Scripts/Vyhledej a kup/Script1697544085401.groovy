@@ -23,11 +23,9 @@ WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/HomePage/PopUps/AcceptCookieButton'))
 
-WebUI.setText(findTestObject('Object Repository/HomePage/Vyhledávání/inputSearch'), GlobalVariable.ProductToFind)
+CustomKeywords.'searchPage.SearchPageTestStep.search'('mobilní telefon Samsung')
 
-WebUI.click(findTestObject('Object Repository/HomePage/Vyhledávání/buttonSearch'))
-
-WebUI.click(findTestObject('Object Repository/Results/Product/buttonAddToShoppingCart'))
+CustomKeywords.'resultsPage.ResultsPageTestStep.addToShoppingCart'()
 
 WebUI.click(findTestObject('Object Repository/Results/buttonShoppingCart'))
 

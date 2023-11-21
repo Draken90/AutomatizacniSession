@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "576B750F51F49A7197DAA13240200728",
+  "keywordClasses": [
+    {
+      "name": "resultsPage.ResultsPageTestStep",
+      "keywordMethods": [
+        {
+          "name": "addToShoppingCart",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
